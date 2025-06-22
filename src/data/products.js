@@ -30,7 +30,7 @@ export const products = [
       "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
   },
   {
-    name: "Magahi Lassi",
+    name: "Magahi Special Lassi",
     category: "Beverages",
     image:
       "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",

@@ -23,10 +23,6 @@ import "./index.css";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navigate to="/home" replace />,
-  },
-  {
-    path: "/home",
     element: <HomePage />,
   },
   {
