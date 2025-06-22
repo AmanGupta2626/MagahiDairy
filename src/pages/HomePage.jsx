@@ -67,7 +67,7 @@ const HomePage = () => {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-7xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">
+            <div className="mx-auto grid max-w-7xl items-start gap-2 grid-cols-2 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">
               {products.map((product) => (
                 <ProductCard key={product.name} product={product} />
               ))}
