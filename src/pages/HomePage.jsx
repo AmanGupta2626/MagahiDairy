@@ -135,7 +135,7 @@ const HomePage = () => {
             <h3 className="mb-4 font-semibold">Quick Links</h3>
             <nav className="flex flex-col gap-2">
               <Link
-                to="/home"
+                to="/"
                 className="text-sm text-muted-foreground hover:text-primary"
               >
                 Home

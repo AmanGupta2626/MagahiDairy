@@ -4,7 +4,7 @@ import { Home, LayoutDashboard, LogIn, Mail } from "lucide-react";
 export function HomeFooter() {
   const location = useLocation();
   const navLinks = [
-    { to: "/home", icon: Home, label: "Home" },
+    { to: "/", icon: Home, label: "Home" },
     { to: "/dashboard", icon: LayoutDashboard, label: "Dashboard" },
     { to: "/contact", icon: Mail, label: "Contact" },
     { to: "/sign-in", icon: LogIn, label: "Login" },
