@@ -40,7 +40,7 @@ export default function SignIn() {
           </Button>
           <div className="text-center text-sm">
             Don't have an account?
-            <Button variant="link" onClick={() => navigate("/signup")}>
+            <Button variant="link" onClick={() => navigate("/sign-up")}>
               Sign Up
             </Button>
           </div>

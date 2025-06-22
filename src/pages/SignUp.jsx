@@ -53,7 +53,7 @@ const SignUp = () => {
           </Button>
           <div className="text-center text-sm">
             Already have an account?
-            <Button variant="link" onClick={() => navigate("/signin")}>
+            <Button variant="link" onClick={() => navigate("/sign-in")}>
               Sign In
             </Button>
           </div>
