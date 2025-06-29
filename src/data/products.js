@@ -1,37 +1,221 @@
 export const products = [
   {
-    name: "Magahi Pasteurised Cow Milk",
-    category: "Milk",
+    name: "Maghi Full Cream 24x500 ML pouch",
+    code: "FCM500",
+    sku_crt: 24,
+    new_db_price: 31.0,
+    new_retailer_price: 32,
+    new_mrp: 33,
     image:
       "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
   },
   {
-    name: "Magahi Pasteurised Standardised Milk",
-    category: "Milk",
+    name: "Maghi Full Cream 12x1000 ML pouch",
+    code: "FCM1000",
+    sku_crt: 12,
+    new_db_price: 61.0,
+    new_retailer_price: 62,
+    new_mrp: 65,
     image:
       "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
   },
   {
-    name: "Magahi Pasteurised Full Cream Milk",
-    category: "Milk",
+    name: "Maghi Standarised 24x500 ML pouch",
+    code: "SM500",
+    sku_crt: 24,
+    new_db_price: 27.0,
+    new_retailer_price: 28,
+    new_mrp: 29,
     image:
       "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
   },
   {
-    name: "Magahi Daily Fresh & Creamy Dahi",
-    category: "Dairy",
+    name: "Maghi Standarised 12x1000 ML pouch",
+    code: "SM1000",
+    sku_crt: 12,
+    new_db_price: 53.0,
+    new_retailer_price: 55,
+    new_mrp: 57,
     image:
       "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
   },
   {
-    name: "Magahi Fresh & Soft Malai Paneer",
-    category: "Dairy",
+    name: "Maghi Cow Milk 24x500 ML pouch",
+    code: "CM500",
+    sku_crt: 24,
+    new_db_price: 26.0,
+    new_retailer_price: 27,
+    new_mrp: 28,
     image:
       "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
   },
   {
-    name: "Magahi Special Lassi",
-    category: "Beverages",
+    name: "Maghi Cow Milk 12x1000 ML pouch",
+    code: "CM1000",
+    sku_crt: 12,
+    new_db_price: 50.0,
+    new_retailer_price: 52,
+    new_mrp: 54,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Magahi Toned Milk 170 ml",
+    code: "TM170",
+    sku_crt: 70,
+    new_db_price: 8.5,
+    new_retailer_price: 9,
+    new_mrp: 10,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Magahi Dahi Plain Cup 80G",
+    code: "PD80",
+    sku_crt: 12,
+    new_db_price: 8.5,
+    new_retailer_price: 9,
+    new_mrp: 10,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Magahi Dahi Plain 180G",
+    code: "PD180",
+    sku_crt: 6,
+    new_db_price: 21,
+    new_retailer_price: 22,
+    new_mrp: 25,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Magahi Dahi Misti Cup 80 gra",
+    code: "MD80",
+    sku_crt: 12,
+    new_db_price: 8.5,
+    new_retailer_price: 9,
+    new_mrp: 10,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Dahi 60x200 ML pouch",
+    code: "PDP200",
+    sku_crt: 60,
+    new_db_price: 13.4,
+    new_retailer_price: 14,
+    new_mrp: 16,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Dahi 30x400 ML pouch",
+    code: "PDP400",
+    sku_crt: 30,
+    new_db_price: 26.8,
+    new_retailer_price: 28,
+    new_mrp: 32,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Lassi 70x160 ML pouch",
+    code: "L160",
+    sku_crt: 70,
+    new_db_price: 8.5,
+    new_retailer_price: 9,
+    new_mrp: 10,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Fresh Paneer 45x200 GM",
+    code: "PNR200",
+    sku_crt: 45,
+    new_db_price: 70.5,
+    new_retailer_price: 76,
+    new_mrp: 85,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Fresh Paneer 45x500 GM",
+    code: "PNR500",
+    sku_crt: 28,
+    new_db_price: 171.46,
+    new_retailer_price: 186,
+    new_mrp: 205,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Magahi Dahi 1 kg reg( baucket)",
+    code: "PDT1",
+    sku_crt: "Bucket",
+    new_db_price: 95,
+    new_retailer_price: 100,
+    new_mrp: 110,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Dahi 5kg(Bucket)Regular",
+    code: "PDT5",
+    sku_crt: "Bucket",
+    new_db_price: 364.84,
+    new_retailer_price: 393.75,
+    new_mrp: 450,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Dahi 15kg(Bucket)Regular",
+    code: "PDT15",
+    sku_crt: "Bucket",
+    new_db_price: 1113.8,
+    new_retailer_price: 1181.25,
+    new_mrp: 1350,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Dahi 10kg(Bucket)Regular",
+    code: "PDT10",
+    sku_crt: "Bucket",
+    new_db_price: 729.69,
+    new_retailer_price: 787.5,
+    new_mrp: 900,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Ghee 1 Kg",
+    code: "MGH1000",
+    sku_crt: "Cane",
+    new_db_price: 590,
+    new_retailer_price: 610,
+    new_mrp: 660,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Ghee 500 gm",
+    code: "MGH500",
+    sku_crt: "Cane",
+    new_db_price: 294,
+    new_retailer_price: 305,
+    new_mrp: 335,
+    image:
+      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+  },
+  {
+    name: "Maghi Ghee 250 gm",
+    code: "MGH250",
+    sku_crt: "Cane",
+    new_db_price: 151,
+    new_retailer_price: 155,
+    new_mrp: 170,
     image:
       "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
   },
