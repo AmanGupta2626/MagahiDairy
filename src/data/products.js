@@ -6,8 +6,7 @@ export const products = [
     new_db_price: 31.0,
     new_retailer_price: 32,
     new_mrp: 33,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Full_Cream_milk_01.jpg",
   },
   {
     name: "Maghi Full Cream 12x1000 ML pouch",
@@ -16,8 +15,7 @@ export const products = [
     new_db_price: 61.0,
     new_retailer_price: 62,
     new_mrp: 65,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Full_Cream_milk_01.jpg",
   },
   {
     name: "Maghi Standarised 24x500 ML pouch",
@@ -26,8 +24,7 @@ export const products = [
     new_db_price: 27.0,
     new_retailer_price: 28,
     new_mrp: 29,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Standardised_milk_01.jpg",
   },
   {
     name: "Maghi Standarised 12x1000 ML pouch",
@@ -36,8 +33,7 @@ export const products = [
     new_db_price: 53.0,
     new_retailer_price: 55,
     new_mrp: 57,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Standardised_milk_01.jpg",
   },
   {
     name: "Maghi Cow Milk 24x500 ML pouch",
@@ -46,8 +42,7 @@ export const products = [
     new_db_price: 26.0,
     new_retailer_price: 27,
     new_mrp: 28,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Cow_milk_01.jpg",
   },
   {
     name: "Maghi Cow Milk 12x1000 ML pouch",
@@ -56,8 +51,7 @@ export const products = [
     new_db_price: 50.0,
     new_retailer_price: 52,
     new_mrp: 54,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Cow_milk_01.jpg",
   },
   {
     name: "Magahi Toned Milk 170 ml",
@@ -66,8 +60,7 @@ export const products = [
     new_db_price: 8.5,
     new_retailer_price: 9,
     new_mrp: 10,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/milk-pouch-2-1-877x1024.png",
   },
   {
     name: "Magahi Dahi Plain Cup 80G",
@@ -76,8 +69,7 @@ export const products = [
     new_db_price: 8.5,
     new_retailer_price: 9,
     new_mrp: 10,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Dahi_01.jpg",
   },
   {
     name: "Magahi Dahi Plain 180G",
@@ -86,8 +78,7 @@ export const products = [
     new_db_price: 21,
     new_retailer_price: 22,
     new_mrp: 25,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Dahi_01.jpg",
   },
   {
     name: "Magahi Dahi Misti Cup 80 gra",
@@ -96,8 +87,7 @@ export const products = [
     new_db_price: 8.5,
     new_retailer_price: 9,
     new_mrp: 10,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Dahi_01.jpg",
   },
   {
     name: "Maghi Dahi 60x200 ML pouch",
@@ -106,8 +96,7 @@ export const products = [
     new_db_price: 13.4,
     new_retailer_price: 14,
     new_mrp: 16,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Dahi_01.jpg",
   },
   {
     name: "Maghi Dahi 30x400 ML pouch",
@@ -116,8 +105,7 @@ export const products = [
     new_db_price: 26.8,
     new_retailer_price: 28,
     new_mrp: 32,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Dahi_01.jpg",
   },
   {
     name: "Maghi Lassi 70x160 ML pouch",
@@ -126,8 +114,7 @@ export const products = [
     new_db_price: 8.5,
     new_retailer_price: 9,
     new_mrp: 10,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Lassi_01.jpg",
   },
   {
     name: "Maghi Fresh Paneer 45x200 GM",
@@ -136,8 +123,7 @@ export const products = [
     new_db_price: 70.5,
     new_retailer_price: 76,
     new_mrp: 85,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Paneer_01.jpg",
   },
   {
     name: "Maghi Fresh Paneer 45x500 GM",
@@ -146,8 +132,7 @@ export const products = [
     new_db_price: 171.46,
     new_retailer_price: 186,
     new_mrp: 205,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Paneer_01.jpg",
   },
   {
     name: "Magahi Dahi 1 kg reg( baucket)",
@@ -156,8 +141,7 @@ export const products = [
     new_db_price: 95,
     new_retailer_price: 100,
     new_mrp: 110,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Dahi_01.jpg",
   },
   {
     name: "Maghi Dahi 5kg(Bucket)Regular",
@@ -166,8 +150,7 @@ export const products = [
     new_db_price: 364.84,
     new_retailer_price: 393.75,
     new_mrp: 450,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Dahi_01.jpg",
   },
   {
     name: "Maghi Dahi 15kg(Bucket)Regular",
@@ -176,8 +159,7 @@ export const products = [
     new_db_price: 1113.8,
     new_retailer_price: 1181.25,
     new_mrp: 1350,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Dahi_01.jpg",
   },
   {
     name: "Maghi Dahi 10kg(Bucket)Regular",
@@ -186,8 +168,7 @@ export const products = [
     new_db_price: 729.69,
     new_retailer_price: 787.5,
     new_mrp: 900,
-    image:
-      "https://www.designerpeople.com//wp-content/uploads/2020/03/dairy-product-social-media-post-design-1.jpg",
+    image: "/src/assets/Dahi_01.jpg",
   },
   {
     name: "Maghi Ghee 1 Kg",
