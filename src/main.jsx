@@ -20,6 +20,7 @@ import { Cart } from "./pages/Cart";
 import Contact from "./pages/Contact";
 import "./index.css";
 import { CartProvider } from "./context/CartContext";
+import { AuthProvider } from "./context/AuthContext";
 import { Toaster } from "react-hot-toast";
 
 const router = createBrowserRouter([
@@ -59,9 +60,11 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <CartProvider>
-      <RouterProvider router={router} />
-      <Toaster position="top-center" />
-    </CartProvider>
+    <AuthProvider>
+      <CartProvider>
+        <RouterProvider router={router} />
+        <Toaster position="top-center" />
+      </CartProvider>
+    </AuthProvider>
   </StrictMode>
 );

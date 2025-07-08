@@ -3,21 +3,19 @@ import React, { createContext, useContext, useReducer } from "react";
 const CartContext = createContext();
 
 const initialState = {
-  items: [], // { product, quantity }
+  cart: [], // { id, name, price, image, description, category, quantity }
 };
 
 function cartReducer(state, action) {
   switch (action.type) {
     case "ADD_TO_CART": {
-      const { product, quantity } = action.payload;
-      const existing = state.items.find(
-        (item) => item.product.code === product.code
-      );
+      const { product, quantity = 1 } = action.payload;
+      const existing = state.cart.find((item) => item.id === product.id);
       if (existing) {
         return {
           ...state,
-          items: state.items.map((item) =>
-            item.product.code === product.code
+          cart: state.cart.map((item) =>
+            item.id === product.id
               ? { ...item, quantity: item.quantity + quantity }
               : item
           ),
@@ -25,15 +23,22 @@ function cartReducer(state, action) {
       } else {
         return {
           ...state,
-          items: [...state.items, { product, quantity }],
+          cart: [...state.cart, { ...product, quantity }],
         };
       }
     }
     case "REMOVE_FROM_CART": {
       return {
         ...state,
-        items: state.items.filter(
-          (item) => item.product.code !== action.payload.code
+        cart: state.cart.filter((item) => item.id !== action.payload.id),
+      };
+    }
+    case "UPDATE_QUANTITY": {
+      const { id, quantity } = action.payload;
+      return {
+        ...state,
+        cart: state.cart.map((item) =>
+          item.id === id ? { ...item, quantity } : item
         ),
       };
     }
@@ -51,16 +56,28 @@ export function CartProvider({ children }) {
   const addToCart = (product, quantity = 1) => {
     dispatch({ type: "ADD_TO_CART", payload: { product, quantity } });
   };
-  const removeFromCart = (code) => {
-    dispatch({ type: "REMOVE_FROM_CART", payload: { code } });
+  
+  const removeFromCart = (id) => {
+    dispatch({ type: "REMOVE_FROM_CART", payload: { id } });
   };
+  
+  const updateQuantity = (id, quantity) => {
+    dispatch({ type: "UPDATE_QUANTITY", payload: { id, quantity } });
+  };
+  
   const clearCart = () => {
     dispatch({ type: "CLEAR_CART" });
   };
 
   return (
     <CartContext.Provider
-      value={{ items: state.items, addToCart, removeFromCart, clearCart }}
+      value={{ 
+        cart: state.cart, 
+        addToCart, 
+        removeFromCart, 
+        updateQuantity,
+        clearCart 
+      }}
     >
       {children}
     </CartContext.Provider>
